@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>NORTCHOT</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta name="color-scheme" content="dark">
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,wght@0,400;0,500;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body class="booting">
+    <div id="boot-screen" aria-hidden="true">
+        <div id="boot-logs"></div>
+    </div>
+
+    <div id="app">
+        <main>
+            <section id="view-home" class="view active" aria-labelledby="home-title">
+                <div class="profile-head">
+                    <img src="res/pfp.png" alt="PFP" class="avatar" width="84" height="84" />
+                    <div class="profile-meta">
+                        <div class="name-row">
+                            <h1 id="home-title">NORTCHOT</h1>
+                            <a href="#about" class="about-btn" data-route="about">About me</a>
+                        </div>
+                        <div class="handle-line">
+                            <span class="nick">@nrtcht</span> · <span>still learning, still trying</span>
+                        </div>
+                    </div>
+                </div>
+
+                <p class="bio-text">
+                    Vibe-coder, semi-geek, NRT Corp. head, dumb kid😝🤟
+                </p>
+
+                <div class="links-row">
+                    <a href="https://github.com/NORTCHOT" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                            <use href="res/github.svg#github"></use>
+                        </svg>
+                        <span>GitHub</span>
+                    </a>
+
+                    <a href="https://t.me/nortchot" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                            <use href="res/tg.svg#tg"></use>
+                        </svg>
+                        <span>Telegram</span>
+                    </a>
+
+                    <a href="https://nrtcorp.qzz.io/" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <img src="https://nrtcorp.qzz.io/res/icon.svg" alt="" width="17" height="17" />
+                        <span>NRT Corp.</span>
+                    </a>
+
+                    <a href="mailto:nortchotyt@gmail.com" class="social-link">
+                        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                            <use href="res/mail.svg#mail"></use>
+                        </svg>
+                        <span>Email</span>
+                    </a>
+
+                    <a href="https://matrix.to/#/@nortchot:nrt.run.place" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                            <use href="res/matrix.svg#matrix"></use>
+                        </svg>
+                        <span>Matrix</span>
+                    </a>
+
+                    <a href="https://discord.com/users/1097513054574481448" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                            <use href="res/discord.svg#discord"></use>
+                        </svg>
+                        <span>Discord</span>
+                    </a>
+
+                    <a href="https://donationalerts.com/r/nortchot" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                            <use href="res/da.svg#da"></use>
+                        </svg>
+                        <span>Support me</span>
+                    </a>
+                </div>
+            </section>
+
+            <section id="view-about" class="view" aria-label="About me">
+                <div class="about-layout">
+                    <aside class="about-sidebar">
+                        <a href="#home" class="back-link" data-route="home">← Home</a>
+                        <ul class="toc-list">
+                            <li><a href="#sec-me" class="toc-link active" data-section="sec-me">Me</a></li>
+                            <li><a href="#sec-characters" class="toc-link" data-section="sec-characters">Favourite characters</a></li>
+                            <li><a href="#sec-devices" class="toc-link" data-section="sec-devices">My devices</a></li>
+                        </ul>
+                    </aside>
+
+                    <div class="about-content">
+                        <section id="sec-me" class="about-section">
+                            <h2>Me</h2>
+                            <div class="facts-list">
+                                <div><span class="label">AKA:</span> <span>nrtcht, northex, Nortchot Morton</span></div>
+                                <div><span class="label">Languages:</span> <span>Russian(native), a bit of English</span></div>
+                                <div><span class="label">Timezone:</span> <span>GMT+3</span></div>
+                                <div><span class="label">Interests:</span> <span>PC/geek-stuff, SW modding, (vibe-)coding</span></div>
+                            </div>
+                            <div class="prose">
+                                <p>So... yeah, that's me. Honestly, I didn't expect anyone to actually visit this section, hehe.<br>
+                                If you're not interested in reading this wall of text about me personally, there are anchor buttons, so feel free to use them. But if you've decided to read about me anyway, then...</p>
+                                <p>I'm NORTCHOT. Nortchot Morton, Northex, nrtcht - all of these refer to me. I don't hide my real name or age, but I don't see much point in putting them here either.<br>
+                                A little wannabe geek, and just a dumb kid. I can't code, hence the vibe-coder title. Why? Well... honestly, I've tried. I've tried to learn, but nothing seems to stick. It's a little frustrating, actually.</p>
+                                <p>I usually try to respect other people's opinions while still sticking to my own, even if they happen to be completely different. This came after a certain situation, but I don't want to talk about it here. It's too personal and too embarrassing, even though it happened a long time ago and I've probably grown since then.<br>
+                                I'll be honest, sometimes people annoy the hell out of me. But not everyone, so if you're wondering whether I'm talking about you - probably not. Though anything is possible.<br>
+                                I can also sometimes come across as selfish when I don't reply to messages. Honestly, I don't want to ignore people, I just have nothing to say. If I've read your message, then I've read it, I haven't ignored it.<br>
+                                And I'm also not particularly good at comforting people. Same thing - I just don't know what to say:/</p>
+                                <p>I don't like asking people questions about their personal lives. It's just not my thing, and I don't really know what to ask anyway.<br>
+                                Another thing I dislike is when people tell me something like "tell me something". What exactly am I supposed to tell you? That's why I prefer direct questions instead of a vague "tell me something". I'm probably a weird person, huh?</p>
+                                <p>When it comes to arguments, I always try to be fair. If I say something, chances are I have an argument to back it up. And yes, I can admit my mistakes and acknowledge when I'm wrong.<br>
+                                The same goes for other people's arguments - I try to remain neutral and consider all sides.</p>
+                                <p>I love listening to music. I'm something of a music enthusiast, so I don't have a "playlist" - I have a "playfuckery":D<br>
+                                Though I mostly listen to hyperpop, scenecore and stuff like that. Artists like asteria, kets4eki, d3r, Clover and others in that vein.<br>
+                                I can't draw. At all. And I probably never will.<br>
+                                I also can't make music, write poetry... Yeah, I'm not exactly a creative person. Although, in a way, everything is art.</p>
+                                <p>I don't really watch anime. Mostly because I just don't have enough time for it.<br>
+                                Here's everything I've watched: Don't Toy with Me, Miss Nagatoro, Buddy Daddies, Cyberpunk: Edgerunners (I've got the second part on my watchlist, but I've only watched the first one so far), and a bit of Tokyo Ghoul (I actually set Kaneki as my avatar while watching it, sorry:D). That's pretty much it. I can't think of anything else right now.<br>
+                                Pretty much the same goes for movies and TV shows. Though I do enjoy screenlife movies (like Searching) and Mr. Robot (although I still haven't finished watching it).</p>
+                                <p>As you've probably figured out by now, I'm into computers. Games have been my favourite pastime since childhood, but eventually I moved on from just playing games to exploring more advanced stuff. I guess it all started when I began watching videos like "upgrading from Windows 1 to Windows 10", hehe. Although, now that I think about it, I'm probably not the only one, am I?</p>
+                                <p>I'm an advocate of open source software and copyleft licenses like the GPL. Of course, I'm no RMS, so proprietary software doesn't make me sick. Still, open source rules. And yes, I occasionally contribute to open source projects myself. I won't list them all here - if you're interested, check out my GitHub.</p>
+                                <p>I hate Windows, even though I've used it my entire life and still use it occasionally. The terminal and logs started feeling like home almost immediately after I began using Linux (not even switched to it, just started using it).<br>
+                                I think you can figure out why - there are plenty of reasons.<br>
+                                IMHO, Windows 10 is better than 11, and 8.X isn't trash. Yeah, I'm not like everyone else :D</p>
+                                <p>I'm addicted to AI. Seriously.<br>
+                                For some reason, it's easier for me to ask an AI than to spend ages searching through Google. These days, there's hardly a single day when I don't ask an AI something.<br>
+                                Speaking of which, I interact with them like they're people. I've never really seen them as "just machines without feelings".<br>
+                                If anyone's interested in my opinion on the whole "AI uprising" thing, I don't think it's particularly likely to happen. Although, even if it does, I'd consider it just another step in the process of evolution.</p>
+                                <p>I'm constantly online. Obviously, I'm not the only one, but I thought it was worth mentioning.<br>
+                                The Internet is a pretty nice place. Especially when you're hidden behind a username. You can find plenty of friends and entertainment... though sometimes the Internet still scares me.<br>
+                                I'm also pretty quick to reply. I don't particularly like keeping people waiting, and I have notifications enabled anyway, so why not?<br>
+                                And yes, I'm literally online on all the major social platforms every single day. There's not a single day when I don't check my chats for something new. And if I don't show up online for at least two days, there's a chance I'm dead. And I'm not kidding.</p>
+                                <p>I love old technology.<br>
+                                There's something special about it. And it doesn't necessarily have to be something from the 90s - even devices from 2015 seem pretty cool to me.<br>
+                                I also really want to get myself something old, but I'm broke, hehe.</p>
+                                <p>I might add more to this section in the future, who knows. But that's all for now.</p>
+                            </div>
+                        </section>
+
+                        <section id="sec-characters" class="about-section">
+                            <h2>Favourite characters</h2>
+
+                            <article class="flow-entry">
+                                <div class="entry-media">
+                                    <img src="res/characters/ellen.webp" alt="Ellen Joe" loading="lazy" />
+                                </div>
+                                <h3 class="entry-title">Ellen Joe</h3>
+                                <div class="entry-sub">Zenless Zone Zero</div>
+                                <p class="entry-text">
+                                    Even before I started playing ZZZ, I was drawn to Ellen's vibe. Not too loud, always tired, and...well, kinda cute :3<br>
+                                    Not gonna lie, I didn't manage to pull her :D
+                                </p>
+                            </article>
+
+                            <article class="flow-entry">
+                                <div class="entry-media">
+                                    <img src="res/characters/astolfo.webp" alt="Astolfo" loading="lazy" />
+                                </div>
+                                <h3 class="entry-title">Astolfo</h3>
+                                <div class="entry-sub">Fate/Apocrypha</div>
+                                <p class="entry-text">
+                                    The situation with this character is a bit more amusing. To be honest, Astolfo became one of my favorites after I started making jokes about femboys and set him as my pfp and wallpaper. He's pretty cute too, hehe.<br>
+                                    And no, I haven't actually watched the anime. But at least I don't go around claiming that I'm an expert on him.
+                                </p>
+                            </article>
+
+                            <article class="flow-entry">
+                                <div class="entry-media">
+                                    <img src="res/characters/miku.webp" alt="Hatsune Miku" loading="lazy" />
+                                </div>
+                                <h3 class="entry-title">Hatsune Miku</h3>
+                                <div class="entry-sub">Vocaloid</div>
+                                <p class="entry-text">
+                                    Well... it's Miku - what else is there to say? She's cute, too (damn, I think that's the only reason I ever pick characters :D).<br>
+                                    Do I listen to her tracks? Not really, to be honest. But I do have a figure of her, hehe. Also, I'm kind of drawn to the fact that she's always 16 - just like Northex is always 19.<br>
+                                    Who's Northex? Eh... maybe you'll find out later, if I ever get around to working on him.
+                                </p>
+                            </article>
+                        </section>
+
+                        <section id="sec-devices" class="about-section">
+                            <h2>My devices</h2>
+
+                            <article class="flow-entry device">
+                                <div class="entry-media">
+                                    <img src="res/devices/main-laptop.png" alt="Main laptop" loading="lazy" />
+                                </div>
+                                <h3 class="entry-title">ASUS TUF FX505DT</h3>
+                                <div class="entry-sub">Main laptop</div>
+                                <p class="entry-text">
+                                    My main laptop. It's not exactly a powerhouse - Ryzen 5 3550H, GTX 1650, 16GB of RAM - but it's enough for me. It handles all the games I play and manages every task I throw at it. I have a dual-boot setup with Windows and CachyOS, though I hardly ever use Windows.<br>
+                                    Why not a pure Arch install? Simple: I was just too lazy to set everything up manually :D
+                                </p>
+                            </article>
+
+                            <article class="flow-entry device">
+                                <div class="entry-media">
+                                    <img src="res/devices/main-phone.webp" alt="Main phone" loading="lazy" />
+                                </div>
+                                <h3 class="entry-title">Samsung Galaxy S24 FE</h3>
+                                <div class="entry-sub">Main phone</div>
+                                <p class="entry-text">
+                                    My main phone. The bootloader is locked, of course.<br>
+                                    To be honest, I've been thinking about replacing it. Why? Uhh...locked bootloader, Knox, bugs, design mistakes, etc.<br>
+                                    Though it handles everything I throw at it - it's a huge step up from the Redmi Note 13, and it still works without lagging.<br>
+                                    The only downside is the battery. 4700 mAh for hardware like this... it's a bit on the low side, frankly.<br>
+                                    One UI 9. If a newer version has been released, I'm likely already on it; I just forgot to update the version info here.<br>
+                                    Exynos 2400e, 8/256, graphite.
+                                </p>
+                            </article>
+
+                            <article class="flow-entry device">
+                                <div class="entry-media">
+                                    <img src="res/devices/redmi-9t.png" alt="Redmi 9T" loading="lazy" />
+                                </div>
+                                <h3 class="entry-title">Xiaomi Redmi 9T</h3>
+                                <div class="entry-sub">A second phone for experiments</div>
+                                <p class="entry-text">
+                                    The things this thing has been through - hehe. I've put it through the wringer: Android 17, Linux, and - dammit - even Windows. And guess what? It's still running perfectly!<br>
+                                    It's a pretty solid phone, especially considering it's the best device in the Redmi 9 lineup.<br>
+                                    I've actually been toying with the idea of ​​using it as my daily driver for a week... Hmm, sounds like a decent plan.<br>
+                                    crDroid 12. Works great.<br>
+                                    Snapdragon 662, 4/64, black.
+                                </p>
+                            </article>
+                            <article class="flow-entry device">
+                                <div class="entry-media">
+                                    <img src="res/devices/redmi-5a.png" alt="Redmi 5A" loading="lazy" />
+                                </div>
+                                <h3 class="entry-title">Xiaomi Redmi 5A</h3>
+                                <div class="entry-sub">Another phone for ROM testing</div>
+                                <p class="entry-text">
+                                    I recently bought this phone, just out of curiosity. What caught my interest was the solid support for postmarketOS (I will NOT call it "Nura", sorry), the fairly wide selection of custom ROMs, the retro design, and the older version of MIUI. IMHO, the older versions of MIUI were better.<br>
+                                    I'm currently testing a bunch of different ROMs on it, so I can't give a definitive verdict just yet.<br>
+                                    Snapdragon 425, 2/16, gray.
+                                </p>
+                            </article>
+                            <article class="flow-entry device">
+                                <div class="entry-media">
+                                    <img src="res/devices/oliver-book.png" alt="Onda Oliver Book A1" loading="lazy" />
+                                </div>
+                                <h3 class="entry-title">Onda Oliver Book A1(Coolby A1book)</h3>
+                                <div class="entry-sub">Shitty x86 tablet</div>
+                                <p class="entry-text">
+                                    I've wanted a Windows-based tablet for a long time. As it happens, the Oliver Book was my first one.<br>
+                                    I bought it as a complete package - it even still has the protective film on it (free screen protection!!!).<br>
+                                    Another interesting detail is that it has a removable M.2 SSD, as well as a Wi-Fi adapter that supports monitor mode and packet injection. I wouldn't call myself a script kiddie, but it's still pretty cool, so why not?<br>
+                                    Arch Linux + Win11 LTSC.<br>
+                                    Pentium N5030, 8/128.
+                                </p>
+                            </article>
+                            <p class="entry-text">To be honest, these aren't all the devices I own. The others are either not being used, broken, or just uninteresting, so I decided to write about these instead. But, in short:<br>
+                            Redmi 6A - broken.<br>
+                            Lenovo TAB2 A8-50LC - just an old tablet; there are hardly any custom ROMs for it.<br>
+                            Galaxy Young Duos - still works, but the power button is pushed in.<br>
+                            HP 635 and Lenovo Ideapad 110-15ISK – my previous laptops; they both work, but the Lenovo has 386 reallocated sectors :D</p>
+                        </section>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <div class="footer-left">
+                <a href="https://github.com/NORTCHOT/website"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="repo-icon-link"
+                aria-label="Site on GitHub"
+                title="Site on GitHub">
+                    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                        <use href="res/github.svg#github"></use>
+                    </svg>
+                </a>
+                <span class="made-by">made by Gemini 4 Hydrogen</span>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
